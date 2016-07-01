@@ -5,7 +5,7 @@ import acm.program.*;
 
 public class AerobicExercise extends ConsoleProgram {
 	
-	/*represent the times of exercise*/
+	/*represent the days of exercise whose time is longer than 30 and 40*/
 	private static final int carHealthTimes = 0;
 	private static final int bloHealthTimes = 0;
 	public void run() {
