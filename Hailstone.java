@@ -45,6 +45,9 @@ public class Hailstone extends ConsoleProgram {
 		}
 	}
 
+	/*
+	 * when the number is odd,multiply it by three and add one.
+	 */
 	private void odd(int number) {
 		println(number+"  is odd,so I make 3n+1:	"+number*3+1);
 		number = 3*number+1;
