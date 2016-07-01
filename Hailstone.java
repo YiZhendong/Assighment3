@@ -1,4 +1,5 @@
-/* TODO: Replace these file comments with a description of what your program
+/* The program is to compute a number ,show the process of the hailstone.
+ * 
  */
 import acm.program.*;
 
