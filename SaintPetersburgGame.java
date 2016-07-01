@@ -12,6 +12,7 @@ public class SaintPetersburgGame extends ConsoleProgram {
 		while(total<=20){
 			playGame();
 		}
+		println("Your total is $"+total+".");
 	}
 
 	private void playGame() {
@@ -23,5 +24,7 @@ public class SaintPetersburgGame extends ConsoleProgram {
 			comesUpHead = rgen.nextBoolean();
 			num++;
 		}
+		println("This game, you earned $"+Math.pow(2, num)+".");
+		total = total + Math.pow(2, num);
 	}
 }
