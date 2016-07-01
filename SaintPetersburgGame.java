@@ -1,5 +1,8 @@
-/* TODO: Replace these file comments with a description of what your program
- * does.
+/* The Saint Petersburg Game  is a hypothetical casino game played by two players 
+ * I begin by putting $1 on the table, and you then repeatedly flip a coin until it comes up tails. 
+ * Each time the coin comes up heads, I double the amount of money on the table.
+ * As soon as the coin comes up tails, the game is over and you win all the money.
+ * program that plays the Saint Petersburg Game as many times as is necessary to earn a total of at least $20. 
  */
 import acm.program.*;
 import acm.util.RandomGenerator;
