@@ -6,7 +6,7 @@ import acm.util.RandomGenerator;
 
 public class SaintPetersburgGame extends ConsoleProgram {
 	/** The total number*/
-	public static int total = 0;
+	public static double total = 0;
 	
 	public void run() {
 		while(total<=20){
