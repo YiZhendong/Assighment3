@@ -1,5 +1,5 @@
-/* TODO: Replace these file comments with a description of what your program
- * does.
+/* The program is to give advice by the minutes of exercise during the week. 
+ * 
  */
 import acm.program.*;
 
