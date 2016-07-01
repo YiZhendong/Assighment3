@@ -27,7 +27,10 @@ public class Pyramid extends GraphicsProgram {
 		//First get the original coordinates
 		getOriginalCoordinate(i);
 		for(int j=0;j<i;j++){
-			GRect brick = new GRect(originalX,originalY,BRICK_WIDTH,BRICK_HEIGHT);
+			double x,y;
+			x = originalX + i * BRICK_WIDTH;
+			y = originalY;
+			GRect brick = new GRect(x,y,BRICK_WIDTH,BRICK_HEIGHT);
 			add(brick);
 		}
 	}
