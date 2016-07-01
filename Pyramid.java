@@ -16,7 +16,7 @@ public class Pyramid extends GraphicsProgram {
 	
 	private static double originalX,originalY;
 	public void run() {
-		for(int i=0;i<BRICKS_IN_BASE;i++){
+		for(int i=BRICKS_IN_BASE;i>0;i--){
 			createBrickRow(i);
 		}
 	}
