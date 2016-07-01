@@ -1,4 +1,5 @@
 /* The program is to compute a number ,show the process of the hailstone.
+ * hailstone number: 
  * 
  */
 import acm.program.*;
