@@ -4,14 +4,16 @@
 import acm.program.*;
 
 public class AerobicExercise extends ConsoleProgram {
+	private static final int carHealthTimes = 0;
+	private static final int bloHealthTimes = 0;
 	public void run() {
+		
 		inputMinutes();
 		showAdvice();
 	}
 
 	private void inputMinutes() {
-		int carHealthTimes = 0;
-		int bloHealthTimes = 0;
+
 		for(int i = 1 ;i < 8; i++){
 			int value = readInt("How many minutes of asrobic Execrcise did you do on day "+i+":");
 			if (value > 30) carHealthTimes ++;
