@@ -35,7 +35,7 @@ public class AerobicExercise extends ConsoleProgram {
 		if (bloHealthTimes >= 2){
 			println("	Good job,you have done enough exercise for blood exercise");
 		}else{
-			println("	You needed 40 or more minutes of blood exercise on at"+ (3-carHealthTimes) +" more day(s)");
+			println("	You needed 40 or more minutes of blood exercise on at"+ (3-bloHealthTimes) +" more day(s)");
 		}
 	}
 }
