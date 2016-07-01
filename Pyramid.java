@@ -14,7 +14,7 @@ public class Pyramid extends GraphicsProgram {
 	/** Number of bricks in the base of the pyramid */
 	private static final int BRICKS_IN_BASE = 14;
 	
-	private static double originalX,OriginalY;
+	private static double originalX,originalY;
 	public void run() {
 		for(int i=0;i<BRICKS_IN_BASE;i++){
 			createBrickRow(i);
