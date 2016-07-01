@@ -33,7 +33,7 @@ public class Pyramid extends GraphicsProgram {
 	private void getOriginalCoordinate(int i) {
 		// TODO Auto-generated method stub
 		originalX = getWidth() - (i+1)*BRICK_WIDTH;
-		originalY = getHeight() - BRICK_HEIGHT;
+		originalY = getHeight() - (BRICKS_IN_BASE -i)*BRICK_HEIGHT;
 	}
 }
 
