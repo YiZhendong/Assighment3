@@ -31,7 +31,7 @@ public class Hailstone extends ConsoleProgram {
 
 	private void odd(int number) {
 		println(number+"  is odd,so I make 3n+1:	"+number*3+1);
-		number /=2;
+		number = 3*number+1;
 		if(number!=1){
 			if(number%2==0){
 				even(number);
