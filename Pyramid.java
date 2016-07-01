@@ -29,6 +29,8 @@ public class Pyramid extends GraphicsProgram {
 	
 		//First get the original coordinates
 		getOriginalCoordinate(i);
+		
+		//Then create a row of bricks;
 		for(int j=0;j<i;j++){
 			double x,y;
 			x = originalX + j * BRICK_WIDTH;
