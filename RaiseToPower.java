@@ -16,8 +16,10 @@ public class RaiseToPower extends ConsoleProgram {
 	}
 	
 	private double raiseToPower(double base, int exponent) {
-		/* TODO: Delete this comment and replace the implementation of this method
-		 * with the correct implementation.
+		/* 
+		 * if exponent = 0,then return 1,
+		 * else if exponent > 1,return base^exponent,
+		 * else return 1/(base^exponent)
 		 */
 		if(exponent ==0 ){
 			return 1;
