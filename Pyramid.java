@@ -15,7 +15,19 @@ public class Pyramid extends GraphicsProgram {
 	private static final int BRICKS_IN_BASE = 14;
 	
 	public void run() {
-		
+		for(int i=0;i<BRICKS_IN_BASE;i++){
+			createBrickRow(i);
+		}
+	}
+
+	private void createBrickRow(int i) {
+		// TODO Auto-generated method stub
+		int originalX,OriginalY;
+		getOriginalCoordinate(i);
+		for(int j=0;j<i;j++){
+			GRect brick = new GRect(originalX,OriginalY,BRICK_WIDTH,BRICK_HEIGHT);
+			add(brick);
+		}
 	}
 }
 
