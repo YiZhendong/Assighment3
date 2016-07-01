@@ -6,7 +6,7 @@ import acm.program.*;
 public class Hailstone extends ConsoleProgram {
 	public void run() {
 		int number = readInt("Please input an positive Integer:");
-		while (number!=1){
+		if(number!=1){
 			if(number%2==0){
 				even(number);
 			}else{
