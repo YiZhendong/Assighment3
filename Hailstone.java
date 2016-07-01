@@ -16,10 +16,17 @@ public class Hailstone extends ConsoleProgram {
 		
 	}
 
-	private int even(int number) {
+	private void even(int number) {
 		// TODO Auto-generated method stub
 		println(number+"  is even,so I make half:	"+number/2);
 		number /=2;
+		if(number!=1){
+			if(number%2==0){
+				even(number);
+			}else{
+				odd(number);
+			}
+		}
 		return number;
 	}
 
