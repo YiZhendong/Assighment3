@@ -21,7 +21,7 @@ public class SaintPetersburgGame extends ConsoleProgram {
 	}
 
 	private void playGame() {
-		//play a game until this turn comes up tail.
+		//play a game until this turn comes up tail,then plus the number to total.
 		Boolean comesUpHead = true;
 		int num = 0;
 		while(comesUpHead){
