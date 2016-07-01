@@ -19,6 +19,20 @@ public class RaiseToPower extends ConsoleProgram {
 		/* TODO: Delete this comment and replace the implementation of this method
 		 * with the correct implementation.
 		 */
-		return 0;
+		if(exponent ==0 ){
+			return 1;
+		}else if(exponent > 0){
+			double temp = 1;
+			for (int i=0;i<exponent;i++){
+				temp = temp * base; 
+			}
+			return temp;
+		}else{
+			double temp = 1;
+			for (int i=0 ; i<-exponent ;i++){
+				temp = temp * base;
+			}
+			return 1/temp;
+		}
 	}
 }
