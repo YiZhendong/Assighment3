@@ -26,16 +26,16 @@ public class AerobicExercise extends ConsoleProgram {
 	private void showAdvice() {
 		println("Cardiovascular Health");
 		if (carHealthTimes >= 4){
-			println("		Good job,you have done enough exercise for cardiovascular exercise");
+			println("	Good job,you have done enough exercise for cardiovascular exercise");
 		}else{
-			println("		You needed 30 or more minutes of aerobic exercise on at"+ (5-carHealthTimes) +" more day(s)");
+			println("	You needed 30 or more minutes of aerobic exercise on at"+ (5-carHealthTimes) +" more day(s)");
 		}
 		
 		println("Blood Health");
 		if (bloHealthTimes >= 2){
-			println("		Good job,you have done enough exercise for blood exercise");
+			println("	Good job,you have done enough exercise for blood exercise");
 		}else{
-			println("		You needed 40 or more minutes of blood exercise on at"+ (3-carHealthTimes) +" more day(s)");
+			println("	You needed 40 or more minutes of blood exercise on at"+ (3-carHealthTimes) +" more day(s)");
 		}
 	}
 }
