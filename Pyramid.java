@@ -25,7 +25,7 @@ public class Pyramid extends GraphicsProgram {
 		// TODO Auto-generated method stub
 		getOriginalCoordinate(i);
 		for(int j=0;j<i;j++){
-			GRect brick = new GRect(originalX,OriginalY,BRICK_WIDTH,BRICK_HEIGHT);
+			GRect brick = new GRect(originalX,originalY,BRICK_WIDTH,BRICK_HEIGHT);
 			add(brick);
 		}
 	}
