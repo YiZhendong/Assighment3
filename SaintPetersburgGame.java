@@ -12,6 +12,8 @@ public class SaintPetersburgGame extends ConsoleProgram {
 	public static double total = 0;
 	
 	public void run() {
+		
+		//when total id less than 20,repeat the game; 
 		while(total<=20){
 			playGame();
 		}
@@ -19,7 +21,7 @@ public class SaintPetersburgGame extends ConsoleProgram {
 	}
 
 	private void playGame() {
-		// TODO Auto-generated method stub
+		//play a game until this turn comes up tail.
 		Boolean comesUpHead = true;
 		int num = 0;
 		while(comesUpHead){
