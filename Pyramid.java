@@ -21,8 +21,10 @@ public class Pyramid extends GraphicsProgram {
 		}
 	}
 
+	// create a row of bricks
 	private void createBrickRow(int i) {
-		// TODO Auto-generated method stub
+	
+		//First get the original coordinates
 		getOriginalCoordinate(i);
 		for(int j=0;j<i;j++){
 			GRect brick = new GRect(originalX,originalY,BRICK_WIDTH,BRICK_HEIGHT);
