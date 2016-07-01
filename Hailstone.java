@@ -27,7 +27,6 @@ public class Hailstone extends ConsoleProgram {
 				odd(number);
 			}
 		}
-		return number;
 	}
 
 	private void odd(int number) {
